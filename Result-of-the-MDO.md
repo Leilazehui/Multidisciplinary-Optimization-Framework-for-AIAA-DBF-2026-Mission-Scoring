@@ -13,5 +13,5 @@ The comparison was taken as the ratio of the total score and the aircraft mass, 
 Since bulk groups were the highest score cases, the first prototype adopted 48 Passengers and 16 cargoes. Through examination after manufacturing and testing process, the light group was selected as the final aircraft design as it took the least time to manufacture and flew faster than other design cases, while the score deviation is mild compared to the bulk group, with a difference of 0.08.
 
 <p align="center>
-  <img src="https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/top100case.jpg" width=45%  />
+  <img src="https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/top100case.png" width=45%  />
 <p/>
