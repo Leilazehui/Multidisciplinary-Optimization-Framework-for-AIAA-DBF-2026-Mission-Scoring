@@ -1,6 +1,0 @@
-# Purpose of MDO
-- A parametric MDO framework was developed in MATLAB using a deterministic grid-search approach to explore the design space systematically to obtain the predicted performance of the preliminary design that maximizes mission score while satisfying aerodynamic and performance constraints. 
-
-- Several assumptions for the battery selection and empty weight of the aircraft under different conditions were made to provide a realistic scenario in the simulation, with an assumed velocity range based on previous aircraft performances. Then the flight path was estimated by examining the flight motion for three stages: take-off/climb, cruising, landing. 
-
-- The highest possible score for each individual mission was estimated and was compared with the optimized score case where all missions’ requirements were considered to determine the highest score case for the GRIFFIN. For Gound Mission (GM), the time for the fastest possible case was estimated as 25 seconds, based on experience from the team. 
