@@ -18,4 +18,4 @@ Since bulk groups were the highest score cases, the first prototype adopted 48 P
 <p align="center">
   <img src="https://github.com/Leilazehui/Leilazehui.github.io/blob/main/Assets/Team_helper_aiaa_2025.jpg" width=45%  />
 <p/>
-[!]("https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/top100case.png")
+![MDO Results]("https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/top100case.png")
