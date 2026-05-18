@@ -1,6 +1,6 @@
 clear; clc;
 
-%% ===================== Hyperparameters =====================
+%% ===================== HYPERPARAMETERS =====================
 AR = linspace(5, 6, 3);		%%Aspect ratio of the wing
 b_range = linspace(1.25,1.524,10);		%%range of the length of the wingspan
 rho = 1.225;
@@ -25,7 +25,7 @@ CLmax = 0.693;			%%maximum lift coefficient induced by the aircraft
 banner_range = linspace(0.254,4.0,50);		%%a range of the length of the banner 
 
 
-%% ===================== Ground Mission REFERENCE =====================
+%% ===================== GROUND MISSION REFERENCE =====================
 %%Tload_min = Inf;
 %%for cargo = 1:16
   %%  for pass = max(3,3*cargo):48
