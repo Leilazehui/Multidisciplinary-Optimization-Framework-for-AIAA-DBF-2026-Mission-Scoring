@@ -1,6 +1,6 @@
 clear; clc;
 
-%% ===================== CONSTANTS =====================
+%% ===================== Hyperparameters =====================
 AR = linspace(5, 6, 3);		%%Aspect ratio of the wing
 b_range = linspace(1.25,1.524,10);		%%range of the length of the wingspan
 rho = 1.225;
@@ -25,7 +25,7 @@ CLmax = 0.693;			%%maximum lift coefficient induced by the aircraft
 banner_range = linspace(0.254,4.0,50);		%%a range of the length of the banner 
 
 
-%% ===================== MISSION 1 REFERENCE =====================
+%% ===================== Ground Mission REFERENCE =====================
 %%Tload_min = Inf;
 %%for cargo = 1:16
   %%  for pass = max(3,3*cargo):48
@@ -107,7 +107,7 @@ for banner_L = banner_range
     best_M3_marks = max(best_M3_marks, laps*banner_L/RAC);
 end
 
-%% ===================== OPTIMISATION =====================
+%% ===================== OPTIMISATION LOOP =====================
 Nkeep = 100;
 best = repmat(struct( ...
     'total',-Inf,'b',NaN,'cargo',NaN,'pass',NaN,...
@@ -202,7 +202,7 @@ for b = b_range
     end
 end
 
-%% ===================== RESULTS =====================
+%% ===================== RESULTS DEMONSTRATED IN TABLES =====================
 fprintf('\nTOP 25 AIRCRAFT CONFIGURATIONS\n');
 
 for i = 1:100
@@ -225,7 +225,7 @@ end
 disp('BEST SINGLE-AIRCRAFT CONFIGURATION');
 disp(best);
 
-%% ===================== FUNCTIONS =====================
+%% ===================== FUNCTIONS FOR HYPERPARAMETERS =====================
 function W = empty_weight_selector(pass,cargo)
     if pass <=3 && cargo <= 1
         W = 2.02;
