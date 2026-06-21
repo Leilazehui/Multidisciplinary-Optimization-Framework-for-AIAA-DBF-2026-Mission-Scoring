@@ -18,5 +18,5 @@ Ground Mission (GM) is a timed demonstration of the aircraft assembly, payload i
 
 ## AIAA 2026 MDO Flowchart
 <p align="center">
-  <img arc="https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/MDO_Flowchart.png"  with=50%  />
+  <img src="https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/MDO_Flowchart.png"  with=50%  />
   <p/>
