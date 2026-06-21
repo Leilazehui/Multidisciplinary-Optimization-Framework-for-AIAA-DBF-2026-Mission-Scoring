@@ -14,4 +14,9 @@ Ground Mission (GM) is a timed demonstration of the aircraft assembly, payload i
 
 - Several assumptions for the battery selection and empty weight of the aircraft under different conditions were made to provide a realistic scenario in the simulation, with an assumed velocity range based on previous aircraft performances. Then the flight path was estimated by examining the flight motion for three stages: take-off/climb, cruising, landing. 
 
-- The highest possible score for each individual mission was estimated and was compared with the optimized score case where all missions’ requirements were considered to determine the highest score case for the GRIFFIN. For Gound Mission (GM), the time for the fastest possible case was estimated as 25 seconds, based on experience from the team. 
+- The highest possible score for each individual mission was estimated and was compared with the optimized score case where all missions’ requirements were considered to determine the highest score case for the GRIFFIN. For Gound Mission (GM), the time for the fastest possible case was estimated as 25 seconds, based on experience from the team.
+
+## AIAA 2026 MDO Flowchart
+<p align="center">
+  <src=img https://github.com/Leilazehui/Multidisciplinary-Optimization-Framework-for-AIAA-DBF-2026-Mission-Scoring/blob/main/MDO_Flowchart.png size=50%   />
+  <p/>
